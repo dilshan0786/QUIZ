@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiant Coaching Centre</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            border: 2px solid #000;
+            padding: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #34495e;
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            background-color: #2980b9;
+            color: white;
+            padding: 15px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #3498db;
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .btn:active {
+            transform: translateY(2px);
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        @media (min-width: 768px) {
+            .button-container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .btn {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Radiant Coaching Centre</h1>
+        <p>We are organizing a quiz on September 5, 2024. Participate and test your knowledge!</p>
+        <div class="button-container">
+            <a href="#" class="btn">Class 9<sup>th</sup></a>
+            <a href="10th.html" class="btn">Class 10<sup>th</sup></a>
+            <a href="#" class="btn">Class 12<sup>th</sup></a>
+        </div>
+    </div>
+</body>
+</html>
