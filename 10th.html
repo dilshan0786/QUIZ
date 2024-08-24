@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Quiz Test</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiant Coaching Centre - Teacher's Day Quiz</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="quiz-container">
-<form id="quiz-form">
-<label for="name">Name:</label>
-<input type="text" id="name" required>
-<label for="rollno">Roll No:</label>
-<input type="text" id="rollno" required>
-<label for="class">Class:</label>
-<input type="text" id="class" required>
-<button id="startQuizBtn">Start Quiz</button>
-</form>
-<div id="quiz"></div>
-<div id="result"></div>
-</div>
-<script src="script.js"></script>
+    <div class="container">
+        <h1>Radiant Coaching Centre</h1>
+        <h2>Teacher's Day Competition Quiz</h2>
+
+        <div id="form-section">
+            <h3>Registration</h3>
+            <form id="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="rollno">Roll No:</label>
+                <input type="text" id="rollno" name="rollno" required>
+                
+                <label for="class">Class:</label>
+                <select id="class" name="class">
+                    <option value="10">10th</option>
+                </select>
+                
+                <button type="button" id="start-quiz">Start Quiz</button>
+            </form>
+        </div>
+
+        <div id="quiz-section" style="display: none;">
+            <h3>Quiz</h3>
+            <div id="question-container"></div>
+            <div id="timer">Time Remaining: <span id="time">30</span> seconds</div>
+            <button id="skip-question">Skip Question</button>
+            <div id="options-container"></div>
+        </div>
+
+        <div id="result-section" style="display: none;">
+            <h3>Result</h3>
+            <div id="result-summary"></div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
