@@ -423,7 +423,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 text: "यदि किसी अवतल दर्पण की फोकस दूरी f तथा वक्रता त्रिज्या R हो, तो-",
-                options: ["f = R/2", "f = 2R", "f = 3R/2", "f = R/2"],
+                options: ["f = R/2", "f = 2R", "f = 3R/2", "f = Rx2"],
                 answer: 0
             },
             {
@@ -489,7 +489,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 text: "1 मीटर फोकस दूरी वाले उत्तल लेंस की क्षमता होगी",
                 options: ["-1 D", "2 D", "1 D", "1.5 D"],
-                answer: 1
+                answer: 2
             },
             {
                 text: "किस दर्पण से वस्तु का बड़ा प्रतिबिम्ब बनता है?",
