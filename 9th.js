@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         question.options.forEach((option, index) => {
             const optionButton = document.createElement('button');
-            optionButton.textContent = option;
+            optionButton.innerHTML = option;
             optionButton.className = 'option-button';
             optionButton.onclick = () => selectOption(index, optionButton);
             optionsContainer.appendChild(optionButton);
