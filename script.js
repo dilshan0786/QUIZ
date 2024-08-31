@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 answer: 2
             },
             {
-                text: "Zn + CuSO₄ ← ZnSO₄ + Cu रासायनिक अभिक्रिया किस प्रकार की है?",
+                text: "Zn + CuSO₄ → ZnSO₄ + Cu रासायनिक अभिक्रिया किस प्रकार की है?",
                 options: ["संयोजन अभिक्रिया", "विस्थापन अभिक्रिया", "द्विविस्थापन अभिक्रिया", "वियोजन अभिक्रिया"],
                 answer: 1
             },
