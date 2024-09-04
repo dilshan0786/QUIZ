@@ -622,7 +622,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Add more questions here
         ];
 
-        return shuffle(questions).slice(0, 15);
+        return shuffle(questions).slice(0, 30);
     }
 
     function shuffle(array) {
