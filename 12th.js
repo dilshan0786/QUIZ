@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showQuestion() {
-        if (currentQuestionIndex >= 15) { // Assuming you want 15 random questions
+        if (currentQuestionIndex >= 30) { // Assuming you want 30 random questions
             showResults();
             return;
         }
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function skipQuestion() {
-        if (currentQuestionIndex < 15) {
+        if (currentQuestionIndex < 30) {
             selectedOptions[currentQuestionIndex] = -1; // Mark as skipped
             const endTime = Date.now();
             questionEndTimes[currentQuestionIndex] = endTime;
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         resultSummary.innerHTML = `
             <p>Total Time: ${totalTime.toFixed(2)} seconds</p>
             <p>Correct Answers: ${correctAnswers}</p>
-            <p>Incorrect Answers: ${15 - correctAnswers}</p>
+            <p>Incorrect Answers: ${30 - correctAnswers}</p>
         `;
     }
 
@@ -616,7 +616,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Add more questions here
         ];
 
-        return shuffle(questions).slice(0, 15);
+        return shuffle(questions).slice(0, 30);
     }
 
     function shuffle(array) {
