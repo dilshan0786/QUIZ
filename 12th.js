@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const questions = [
             {
                 "text": "चुंबकीय क्षेत्र की विमा क्या है?",
-                "options": ["ML<sup>0</sup>T<sup>-2</sub>A<sub>-1</sub>", "MLT", "IMLT", "LOT"],
+                "options": ["ML<sup>0</sup>T<sup>-2</sup>A<sup>-1</sup>", "MLT", "IMLT", "LOT"],
                 "answer": 0
             },
             {
