@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showQuestion() {
-        if (currentQuestionIndex >= 30) { // Assuming you want 15 random questions
+        if (currentQuestionIndex >= 30) { // Assuming you want 30 random questions
             showResults();
             return;
         }
