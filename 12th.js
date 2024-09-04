@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const questions = [
             {
                 "text": "चुंबकीय क्षेत्र की विमा क्या है?",
-                "options": ["I<sup>-1</sup>ML<sup>0</sup>T<sup>2</sub>", "MLT", "IMLT", "LOT"],
+                "options": ["ML<sup>0</sup>T<sup>-2</sub>A<sub>-1</sub>", "MLT", "IMLT", "LOT"],
                 "answer": 0
             },
             {
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "text": "विभव प्रवणता क्या होती है?",
-                "options": ["dn / dv", "v / dn", "dv / n", "dv / dn"],
+                "options": ["dn / dv", "v / dn", "dv / n", "dv / dr"],
                 "answer": 3
             },
             {
@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "text": "विधुत द्विध्रुव आघूर्ण का S.I मात्रक?",
-                "options": ["C<sup>2</sup>m<sup>2</sup>J<sup>-1</sup>", "N / C", "J / C", "NC<sup>-1</sup>"],
+                "options": ["C<sup>2</sup>m<sup>2</sup>J<sup>-1</sup>", "C", "J / C", "c.m"],
                 "answer": 3
             },
             {
@@ -350,7 +350,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 "text": "पृथ्वी के चुंबकीय क्षेत्र का क्षैतिज घटक क्या हैं?",
                 "options": ["B<sub>H</sub> = B sin θ", "B<sub>v</sub> = B sin θ", "B<sub>H</sub> = B cos θ", "B<sub>v</sub> = B cos θ"],
-                "answer": 0
+                "answer": 2
             },
             {
                 "text": "पृथ्वी के चुंबकीय क्षेत्र का उर्ध्वा घटक क्या हैं?",
@@ -419,7 +419,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "text": "विधुत क्षेत्र E और विभव V के बीच संबंध होता हैं?",
-                "options": ["E = -V/dn", "E = dV/dn", "E = V/dn", "E = -dv/dn"],
+                "options": ["E = -V/dn", "E = dV/dn", "E = V/dn", "E = -dv/dx"],
                 "answer": 3
             },
             {
